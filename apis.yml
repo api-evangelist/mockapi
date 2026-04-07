@@ -5,8 +5,8 @@ apis:
   - aid: mockapi:mockapi
     name: mockAPI
     tags:
-      - Mocking
       - Mock Servers
+      - Mocking
       - Platform
     humanURL: https://mockapi.io/
     properties:
@@ -20,8 +20,8 @@ apis:
       external APIs without the need for a live server or internet connection.
 name: mockAPI
 tags:
-  - Mocking
   - Mock Servers
+  - Mocking
   - Platform
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
