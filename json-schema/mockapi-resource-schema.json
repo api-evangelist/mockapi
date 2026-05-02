@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/mockapi/main/json-schema/mockapi-resource-schema.json",
+  "title": "mockAPI Resource",
+  "description": "Schema describing a mockAPI.io resource definition. Captures the resource name, fields, relationships, and seed configuration so a portable definition can be replayed in mockAPI or another mock platform.",
+  "type": "object",
+  "required": ["name", "fields"],
+  "properties": {
+    "id": { "type": "string" },
+    "name": {
+      "type": "string",
+      "description": "Resource name. Used to derive REST paths (e.g., /users)."
+    },
+    "description": { "type": "string" },
+    "fields": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "type"],
+        "properties": {
+          "name": { "type": "string" },
+          "type": {
+            "type": "string",
+            "enum": ["string", "integer", "number", "boolean", "object", "array", "datetime", "uuid", "faker"]
+          },
+          "faker": {
+            "type": "string",
+            "description": "Faker.js expression used to generate seed values (e.g., name.firstName)."
+          },
+          "required": { "type": "boolean", "default": false },
+          "default": {},
+          "description": { "type": "string" }
+        }
+      }
+    },
+    "relationships": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["resource", "type"],
+        "properties": {
+          "resource": { "type": "string" },
+          "type": { "type": "string", "enum": ["hasOne", "hasMany", "belongsTo"] }
+        }
+      }
+    },
+    "seedCount": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Number of records to generate when the resource is provisioned."
+    },
+    "endpoints": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["method", "path"],
+        "properties": {
+          "method": { "type": "string", "enum": ["GET", "POST", "PUT", "PATCH", "DELETE"] },
+          "path": { "type": "string" },
+          "responseCode": { "type": "integer", "minimum": 100, "maximum": 599 },
+          "delayMs": { "type": "integer", "minimum": 0 }
+        }
+      }
+    }
+  }
+}

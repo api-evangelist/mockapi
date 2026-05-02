@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "@vocab": "https://mockapi.io/vocab#",
+    "schema": "https://schema.org/",
+    "name": "schema:name",
+    "description": "schema:description",
+    "url": "schema:url",
+    "Project": "https://mockapi.io/vocab#Project",
+    "Resource": "https://mockapi.io/vocab#Resource",
+    "Field": "https://mockapi.io/vocab#Field",
+    "Endpoint": "https://mockapi.io/vocab#Endpoint",
+    "method": "https://mockapi.io/vocab#method",
+    "path": "https://mockapi.io/vocab#path",
+    "type": "https://mockapi.io/vocab#fieldType",
+    "faker": "https://mockapi.io/vocab#fakerExpression"
+  }
+}
