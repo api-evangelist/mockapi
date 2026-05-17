@@ -69,7 +69,7 @@ common:
     url: https://github.com/mockapi-io
   - type: Login
     url: https://mockapi.io/
-  - type: JSON-LD
+  - type: JSONLD
     url: json-ld/mockapi-context.jsonld
   - type: JSONSchema
     url: json-schema/mockapi-resource-schema.json
