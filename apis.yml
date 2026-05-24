@@ -73,6 +73,8 @@ common:
     url: json-ld/mockapi-context.jsonld
   - type: JSONSchema
     url: json-schema/mockapi-resource-schema.json
+  - type: LLMsTxt
+    url: https://mockapi.io/llms.txt
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
