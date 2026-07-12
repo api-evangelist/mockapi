@@ -59,6 +59,8 @@ apis:
       - FN: mockAPI Support
         url: https://mockapi.io/
 common:
+  - type: DomainSecurity
+    url: security/mockapi-domain-security.yml
   - type: Website
     url: https://mockapi.io/
   - type: Documentation
