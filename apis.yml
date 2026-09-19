@@ -37,6 +37,15 @@ url: >-
 tags:
   - API Mocking
   - CRUD
+  - Mock Servers
+  - Mocking
+  - Platform
+  - Prototyping
+  - REST
+  - Testing
+tags_raw:
+  - API Mocking
+  - CRUD
   - Mock Server
   - Mocking
   - Platform
@@ -60,6 +69,14 @@ apis:
     humanURL: https://mockapi.io/
     baseURL: https://mockapi.io/
     tags:
+      - API Mocking
+      - CRUD
+      - Mock Servers
+      - Mocking
+      - Platform
+      - Prototyping
+      - REST
+    tags_raw:
       - API Mocking
       - CRUD
       - Mock Server
