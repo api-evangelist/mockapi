@@ -67,7 +67,6 @@ apis:
       and seeded data, making it useful for prototyping clients and demos.
     image: https://mockapi.io/favicon.ico
     humanURL: https://mockapi.io/
-    baseURL: https://mockapi.io/
     tags:
       - API Mocking
       - CRUD
