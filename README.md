@@ -1,4 +1,4 @@
-# mockAPI (mockapi)
+# mockAPI
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,64 +66,119 @@
 
 mockAPI.io is a hosted mock API service that lets developers create custom REST endpoints, define resource schemas, and generate fake data for testing and prototyping web and mobile applications. Users define resources in a web UI and mockAPI provisions a fully working REST endpoint with CRUD semantics, custom response codes, and seed data so teams can prototype against realistic API behavior without standing up a backend.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/mockapi/refs/heads/main/apis.yml)
+**Areas:** API Mocking · CRUD · Mock Servers · Mocking · Platform · Prototyping · REST · Testing
 
-## Scope
+## mockAPI on APIs.io
 
-- **Type:** Index
-- **Position:** Consumer
-- **Access:** 3rd-Party
+Everything profiled for mockAPI is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/mockapi/](https://apis.io/providers/mockapi/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (1)
 
-- API Mocking
-- CRUD
-- Mock Server
-- Mocking
-- Platform
-- Prototyping
-- REST
-- Testing
+- [mockAPI](https://apis.io/apis/mockapi/mockapi/) — mockAPI is a hosted platform for generating REST mock APIs. Users define resources, fields, and relationships through a web UI and mockAPI exposes…
 
-## Timestamps
+### Published properties
 
-- **Created:** 2025-01-08
-- **Modified:** 2026-04-28
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### JSON Schema (1)
 
-### mockAPI
-mockAPI is a hosted platform for generating REST mock APIs. Users define resources, fields, and relationships through a web UI and mockAPI exposes auto-generated CRUD endpoints with optional custom response codes, delays, and seeded data, making it useful for prototyping clients and demos.
+The data models the API reads and writes.
 
-**Human URL:** [https://mockapi.io/](https://mockapi.io/)
+- [mockAPI Resource](https://apis.io/schemas/mockapi/mockapi-resource/)
 
-#### Tags
+#### JSON-LD (1)
 
-- API Mocking, CRUD, Mock Server, Mocking, Platform, Prototyping, REST
+Linked-data contexts for the provider's vocabulary.
 
-#### Properties
+- [Mockapi Context](https://apis.io/jsonld/mockapi/mockapi-context/)
 
-- [Documentation](https://github.com/mockapi-io/docs/wiki)
-- [Getting Started](https://github.com/mockapi-io/docs/wiki/Getting-Started)
-- [Resources](https://github.com/mockapi-io/docs/wiki/Resource)
-- [GitHub](https://github.com/mockapi-io)
+#### Governance rules (1)
 
-## Artifacts
+Spectral rulesets for the provider's contracts.
 
-| Type | File | Description |
-|------|------|-------------|
-| JSON-LD | [json-ld/mockapi-context.jsonld](json-ld/mockapi-context.jsonld) | Linked-data context for mockAPI projects, resources, and endpoints |
-| JSON Schema | [json-schema/mockapi-resource-schema.json](json-schema/mockapi-resource-schema.json) | Schema describing a portable mockAPI resource definition with fields, relationships, seed config, and endpoints |
+- [mockAPI — jsonschema rules](https://apis.io/rules/mockapi/mockapi-jsonschema-spectral-rules/)
 
-## Common Properties
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Mockapi Domain Security](https://apis.io/security/mockapi/mockapi-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Mockapi Plans Pricing](https://apis.io/plans/mockapi/mockapi-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Mockapi Rate Limits](https://apis.io/rate-limits/mockapi/mockapi-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Mockapi Finops](https://apis.io/finops/mockapi/mockapi-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://mockapi.io/)
 - [Documentation](https://github.com/mockapi-io/docs/wiki)
-- [Getting Started](https://github.com/mockapi-io/docs/wiki/Getting-Started)
-- [GitHub](https://github.com/mockapi-io)
+- [Getting started](https://github.com/mockapi-io/docs/wiki/Getting-Started)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
-**URL:** https://apievangelist.com
+**Kin Score 17.5** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 64.3 |
+| Contract quality | 6.7 |
+| Contract governance | 9.8 |
+| Operational transparency | 13.2 |
+| Developer ergonomics | 21.4 |
+| Access clarity | 14.5 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/mockapi/](https://apis.io/providers/mockapi/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for mockAPI: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/mockapi/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
